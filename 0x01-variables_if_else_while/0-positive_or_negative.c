@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Determines if s number is positive, negative or zero.
+ * main - Determines if a number is positive, negative or zero.
  *
  * Retuen: Always 0 (Success)
  */
