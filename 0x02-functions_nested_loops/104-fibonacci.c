@@ -10,7 +10,7 @@ int main(void)
 
 {
 	int count;
-	unsigned long fib1 = 0, fib2 =1, sum;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 	unsigned long fib1_half1, fib1_half2, fib2_half1;
 	unsigned long half1, half2;
 
@@ -42,6 +42,6 @@ int main(void)
 	fib2_half1 = half1;
 	fib2_half1 = half2;
 	}
-	printf ("\n");
+	printf("\n");
 	return (0);
 }
