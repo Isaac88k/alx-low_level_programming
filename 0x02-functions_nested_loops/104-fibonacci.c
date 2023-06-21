@@ -10,7 +10,7 @@ int main(void)
 
 {
 	int count;
-	unsigned long fib 1 = 0, fib = 1, sum;
+	unsigned long fib1 = 0, fib = 1, sum;
 	unsigned long fib_half1, fib1_half2, fib2_half1;
 	unsigned long half1, half2;
 
