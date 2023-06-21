@@ -1,11 +1,8 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Description: computes the sum of all the multiples of 3 or 5 below 1024 (excluded)
- *
- * Return: Always 0 (Success)
+ * main - prints the sum of all multiples of 3 or 5 up to 1024
+ * Return: Always (Success)
  */
 
 int main(void)
@@ -14,9 +11,10 @@ int main(void)
 
 	for (num = 0; num < 1024; num++)
 	{
-		if ((num % 3 == 0) || (num % 5== 0))
+		if ((num % 3 == 0) || (num % 5 ==0))
 			sum += num;
 	}
-	printf("%d\n", z);
+	printf("%d\n", sum);
+
 	return (0);
 }
