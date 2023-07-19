@@ -19,4 +19,3 @@
 			action(array[i]);
 		}
 	}
-	
